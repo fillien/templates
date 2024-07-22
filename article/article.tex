@@ -1,0 +1,48 @@
+\documentclass[sigconf]{acmart}
+
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{mathtools}
+\usepackage{tikz}
+\usetikzlibrary{patterns,patterns.meta,automata,positioning,arrows.meta}
+\usepackage{pgfplots}
+
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\setcopyright{acmlicensed}
+\copyrightyear{date}
+\acmYear{date}
+\acmDOI{XXXXXXX.XXXXXXX}
+
+% These commands are for a PROCEEDINGS abstract or paper.
+\acmConference[Short title]{Title}{Date}{Location}
+
+%  Uncomment \acmBooktitle if th title of the proceedings is different
+%  from ``Proceedings of ...''!
+
+\acmBooktitle{Book title} 
+\acmISBN{ISBN}
+
+\title{Article title}
+
+\author{John Galt}
+\authornotemark[1]
+\email{mail@mail.co}
+\orcid{1234-5678-9012}
+\affiliation{%
+  \institution{Institution}
+  \city{City}
+  \country{Country}
+}
+
+\citestyle{acmauthoryear}
+
+\begin{document}
+
+\maketitle
+
+\cite{author1984}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{biblio}
+
+\end{document}
